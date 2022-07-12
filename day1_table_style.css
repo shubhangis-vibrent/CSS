@@ -1,0 +1,36 @@
+
+        th{
+            font-family:'Fascinate', cursive;
+            color: red;
+            font: 70px;
+            padding: 10px;
+            background-color: aqua;
+            
+        }
+        table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+         tr:hover{
+            background-color: rgb(172, 152, 152);
+         }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+       
+        div {
+           position:relative;
+           display:inline-block;
+      }
+      div:hover:after {
+        content:"\A";
+        width:100%;
+        height:100%;
+        background:rgba(206, 246, 29, 0.5);
+        position:absolute;
+        top:0;
+        left:0;
+        
+       } 
+       
